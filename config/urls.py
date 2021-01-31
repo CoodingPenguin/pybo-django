@@ -19,5 +19,5 @@ from pybo import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('pybo/', include('pybo.urls')),
+    path('pybo/', include('pybo.urls')),    # pybo/ 포함 하위 URL은 pybo 앱에서 처리
 ]
